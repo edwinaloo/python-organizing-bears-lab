@@ -9,14 +9,13 @@ WHERE
 """
 
 select_all_bears_names_and_orders_in_alphabetical_order = """
-SELECT
-    name,
-    [order]
-FROM
-    bears
-ORDER BY
-    name ASC;
+    SELECT
+        name,
+        [order]
+    FROM bears
+    ORDER BY name ASC;
 """
+
 
 select_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest = """
 SELECT
